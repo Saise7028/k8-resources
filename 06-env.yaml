@@ -6,10 +6,10 @@ spec:
   containers:
   - name: nginx
     image: nginx
-env:
-  - name: course
-    value: Devops
-  - name: trainer
-    value: "sivakumar Reddy"
-  - name: duration
-    value: "120hrs"   
+    env:
+    - name: course
+      value: Devops
+    - name: trainer
+      value: "sivakumar Reddy"
+    - name: duration
+      value: "120hrs"   
