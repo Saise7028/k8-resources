@@ -1,11 +1,11 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: pod-secrect
+  name: pod-secret
 spec:
   containers:
   - name: nginx
     image: nginx
     envfrom:
     - SecrectRef:
-        name: pod-secrect  
+        name: pod-secret  
